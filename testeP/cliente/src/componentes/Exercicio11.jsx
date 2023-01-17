@@ -17,7 +17,6 @@ class Exercicio11 extends React.Component {
     resultadoFinal(e) {
         e.preventDefault();
         this.setState({ resultado: Math.floor(this.state.valueOne + this.state.valueTwo + this.state.valueThree) });
-
     }
 
     render() {
@@ -42,7 +41,7 @@ class Exercicio11 extends React.Component {
                 <div className="resultadoDiv">
                     <p>O resultado da soma dos numeros "{this.state.valueOne} + {this.state.valueTwo} + {this.state.valueThree} é: <span>{this.state.resultado}</span></p>
                 </div>
-                <HomeBtn/>
+                <HomeBtn />
             </div>
         );
     };
