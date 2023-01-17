@@ -1,4 +1,5 @@
 import React from "react";
+import './Menu.css'
 
 class Menu extends React.Component {
     constructor(props) {
@@ -7,9 +8,12 @@ class Menu extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="menu">
+                <h1>Componentes</h1>
                 <a href="/ola">Ola OlaMundo</a><br/>
-                <a href="/gerador">Gerador</a>
+                <a href="/gerador">Gerador</a><br/>
+                <a href="/exercicio11">exercicio 11 com classe</a><br/>
+                <a href="/exercicio12">exercicio 12 com classe</a>
             </div>
         )
     }

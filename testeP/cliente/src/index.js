@@ -16,12 +16,14 @@ import ShowImg from './componentes/showImg';
 
 import Exercicio23 from './componentes/Exercicio23';
 import Rota from './componentes/Rota';
+import Exercicio12 from './componentes/Exercicio12';
+import Exercicio12Classe from './componentes/Exercicio12Classe';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Rota/>
+    <Rota />
   </React.StrictMode>
 );
 
