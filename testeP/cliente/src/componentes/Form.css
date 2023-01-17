@@ -41,6 +41,10 @@ form button {
     /* border: 1px solid black; */
 }
 
+.resultadoDiv p {
+    font-size: 16px;
+}
+
 p span {
     display: flex;
     align-items: center;

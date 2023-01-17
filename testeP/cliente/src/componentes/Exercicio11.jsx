@@ -26,20 +26,31 @@ class Exercicio11 extends React.Component {
                 <form>
                     <label>
                         <span>Valor 1: </span>
-                        <input class="form-control" onChange={(e) => this.setState({ valueOne: Number(e.target.value) })} type="number" />
+                        <input
+                            class="form-control"
+                            onChange={(e) => this.setState({ valueOne: Number(e.target.value) })}
+                        />
                     </label>
                     <label>
                         <span>Valor 2: </span>
-                        <input class="form-control" onChange={(e) => this.setState({ valueTwo: Number(e.target.value) })} type="number" />
+                        <input
+                            class="form-control"
+                            onChange={(e) => this.setState({ valueTwo: Number(e.target.value) })}
+                        />
                     </label>
                     <label>
                         <span>Valor 3: </span>
-                        <input class="form-control" onChange={(e) => this.setState({ valueThree: Number(e.target.value) })} type="number" />
+                        <input
+                            class="form-control"
+                            onChange={(e) => this.setState({ valueThree: Number(e.target.value) })}
+                        />
                     </label>
-                    <div><button className="btn btn-primary" onClick={this.resultadoFinal}>Somar valores</button></div>
+                    <div><button
+                        className="btn btn-primary"
+                        onClick={this.resultadoFinal}>Somar valores</button></div>
                 </form>
                 <div className="resultadoDiv">
-                    <p>O resultado da soma dos numeros "{this.state.valueOne} + {this.state.valueTwo} + {this.state.valueThree} é: <span>{this.state.resultado}</span></p>
+                    <p>O resultado da soma dos numeros "{this.state.valueOne} + {this.state.valueTwo} + {this.state.valueThree}" é: <span>{this.state.resultado}</span></p>
                 </div>
                 <HomeBtn />
             </div>
