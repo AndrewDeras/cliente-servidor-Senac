@@ -7,6 +7,8 @@ import ChangeBtnBgColor from "./changeBtnBgColor";
 import Menu from "./Menu";
 import Exercicio12Classe from "./Exercicio12Classe";
 import Exercicio11 from "./Exercicio11";
+import Template from "./pagina exercicio/Template";
+import QuemSomos from './pagina exercicio/QuemSomos'
 
 
 class Rota extends React.Component {
@@ -24,8 +26,10 @@ class Rota extends React.Component {
                         <Route path='/ola' element={<Form />} />
                         <Route path='/gerador' element={<Gerador linhas={3} colunas={4} />} />
                         <Route path='/btn' element={<ChangeBtnBgColor />} />
-                        <Route path='exercicio11' element={<Exercicio11 />} />
-                        <Route path='exercicio12' element={<Exercicio12Classe />} />
+                        <Route path='/exercicio11' element={<Exercicio11 />} />
+                        <Route path='/exercicio12' element={<Exercicio12Classe />} />
+                        <Route path="/pagina-exercicio" element={<Template />} />
+                        <Route path="/quem-somos" element={<QuemSomos/>}/>
                     </Routes>
                 </BrowserRouter>
             </div>

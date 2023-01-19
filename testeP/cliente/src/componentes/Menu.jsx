@@ -10,10 +10,11 @@ class Menu extends React.Component {
         return (
             <div className="menu">
                 <h1>Componentes</h1>
-                <a href="/ola">Ola OlaMundo</a><br/>
-                <a href="/gerador">Gerador</a><br/>
-                <a href="/exercicio11">exercicio 11 com classe</a><br/>
+                <a href="/ola">Ola OlaMundo</a><br />
+                <a href="/gerador">Gerador</a><br />
+                <a href="/exercicio11">exercicio 11 com classe</a><br />
                 <a href="/exercicio12">exercicio 12 com classe</a>
+                <a href="/pagina-exercicio">Página exercicio</a>
             </div>
         )
     }
