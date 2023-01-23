@@ -8,7 +8,9 @@ import Menu from "./Menu";
 import Exercicio12Classe from "./Exercicio12Classe";
 import Exercicio11 from "./Exercicio11";
 import Template from "./pagina exercicio/Template";
-import QuemSomos from './pagina exercicio/QuemSomos'
+import QuemSomos from './pagina exercicio/QuemSomos';
+import Pizzaria from '../componentes/pizzaria/OpenOrClose'
+import Eventualmente from "./eventualmente/Eventualmente";
 
 
 class Rota extends React.Component {
@@ -29,7 +31,9 @@ class Rota extends React.Component {
                         <Route path='/exercicio11' element={<Exercicio11 />} />
                         <Route path='/exercicio12' element={<Exercicio12Classe />} />
                         <Route path="/pagina-exercicio" element={<Template />} />
-                        <Route path="/quem-somos" element={<QuemSomos/>}/>
+                        <Route path="/quem-somos" element={<QuemSomos />} />
+                        <Route path="/pizzaria" element={<Pizzaria />} />
+                        <Route path="/eventualmente" element={<Eventualmente />} />
                     </Routes>
                 </BrowserRouter>
             </div>

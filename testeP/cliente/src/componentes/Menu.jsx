@@ -15,6 +15,8 @@ class Menu extends React.Component {
                 <a href="/exercicio11">exercicio 11 com classe</a><br />
                 <a href="/exercicio12">exercicio 12 com classe</a>
                 <a href="/pagina-exercicio">Página exercicio</a>
+                <a href="/pizzaria">Pizzaria</a>
+                <a href="./eventualmente">Eventualmente 23/01/2023</a>
             </div>
         )
     }
