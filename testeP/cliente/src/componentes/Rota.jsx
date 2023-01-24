@@ -11,9 +11,11 @@ import Template from "./pagina exercicio/Template";
 import QuemSomos from './pagina exercicio/QuemSomos';
 import Pizzaria from '../componentes/pizzaria/OpenOrClose'
 import Eventualmente from "./eventualmente/Eventualmente";
+import Gato from "./ModelandoUmPet2/Gato";
 
 
 class Rota extends React.Component {
+
     constructor(props) {
         super(props)
         this.teste = 'teste';
@@ -34,6 +36,7 @@ class Rota extends React.Component {
                         <Route path="/quem-somos" element={<QuemSomos />} />
                         <Route path="/pizzaria" element={<Pizzaria />} />
                         <Route path="/eventualmente" element={<Eventualmente />} />
+                        <Route path="/Gato" element={<Gato nome="Pepe" idade={8} corOlhos="Branco" />} />
                     </Routes>
                 </BrowserRouter>
             </div>
